@@ -23,7 +23,7 @@ const App = () => {
     setActive(true);
   };
 
-  const stopTimer = () => {
+  const pauseTimer = () => {
     setActive(false);
   };
 
@@ -54,10 +54,10 @@ const App = () => {
         </button>
 
         <button
-          onClick={stopTimer}
+          onClick={pauseTimer}
           className="border border-gray-400 rounded-md px-8 py-2"
         >
-          Stop
+          Pause
         </button>
 
         <button
